@@ -30,3 +30,22 @@ String                        string
 Object                        object
 
 */
+
+// Stack(Primitive) , Heap(Non-Primitive)
+let myName = "mohit"
+let anotherName = myName//copy
+anotherName = "batman"
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    email: "abc@xyz",
+    name:"max"
+}
+
+let userTwo = userOne//reference
+userTwo.email="asdfg@12345"
+
+console.log(userOne)
+console.log(userTwo)
